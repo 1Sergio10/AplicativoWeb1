@@ -1,0 +1,19 @@
+{
+    "name": "Proyecto Ing.Web",
+    "short_name": "Ing.Web",
+    "description": "Proyecto académico de diseño y desarrollo web.",
+    "lang": "es",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#fff7ed",
+    "theme_color": "#18233f",
+    "icons": [
+        {
+            "src": "img/companera.avif",
+            "sizes": "any",
+            "type": "image/avif",
+            "purpose": "any maskable"
+        }
+    ]
+}
