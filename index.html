@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Estudio Norte, diseño digital con estrategia y claridad.">
+    <title>Estudio Norte | Diseño con propósito</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#inicio" aria-label="Estudio Norte, ir al inicio">
+                <span class="brand-mark" aria-hidden="true">EN</span>
+                <span>Estudio Norte</span>
+            </a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre">Sobre el proyecto</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+            <video class="hero-video" autoplay muted loop playsinline poster="img/hero.jpg" aria-hidden="true">
+                <source src="img/hero.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <p class="eyebrow">Diseño digital · Estrategia · Identidad</p>
+                <h1 id="titulo-principal">Ideas claras para marcas que quieren avanzar.</h1>
+                <p class="hero-intro">Construimos experiencias digitales honestas, funcionales y memorables para proyectos con algo importante que decir.</p>
+                <a class="button button-light" href="#sobre">Conocer el proyecto <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="hero-caption">01 <span aria-hidden="true"></span> Una mirada diferente</p>
+        </section>
+
+        <section class="about-section" id="sobre" aria-labelledby="titulo-sobre">
+            <div class="section-heading">
+                <p class="eyebrow">El proyecto</p>
+                <h2 id="titulo-sobre">Diseñar con intención cambia la forma de conectar.</h2>
+            </div>
+            <div class="about-layout">
+                <div class="about-copy">
+                    <p class="lead">Somos un estudio independiente que convierte ideas complejas en identidades y productos digitales fáciles de entender.</p>
+                    <p>Trabajamos junto a personas, emprendimientos y equipos que buscan una presencia digital con personalidad. Cada decisión nace de escuchar, ordenar y encontrar la forma más directa de contar una historia.</p>
+                    <div class="service-list" aria-label="Áreas de trabajo">
+                        <article class="service-item">
+                            <span class="service-number">01</span>
+                            <h3>Dirección visual</h3>
+                            <p>Una identidad coherente que se reconoce y se recuerda.</p>
+                        </article>
+                        <article class="service-item">
+                            <span class="service-number">02</span>
+                            <h3>Experiencias web</h3>
+                            <p>Interfaces accesibles que guían a las personas con naturalidad.</p>
+                        </article>
+                    </div>
+                </div>
+                <figure class="project-visual">
+                    <img src="img/proyecto.jpg" alt="Mesa de trabajo con bocetos y materiales de diseño">
+                    <figcaption>El detalle también comunica.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contacto" aria-labelledby="titulo-contacto">
+            <div class="contact-layout">
+                <div class="contact-copy">
+                    <p class="eyebrow">Hablemos</p>
+                    <h2 id="titulo-contacto">Tu próxima idea merece un buen comienzo.</h2>
+                    <p>Cuéntanos qué tienes en mente. Revisaremos tu mensaje y te responderemos con calma, claridad y próximos pasos.</p>
+                    <p class="contact-detail">hola@estudionorte.com<br>+34 600 123 456</p>
+                </div>
+                <form class="contact-form" action="#contacto" method="post">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="correo">Correo electrónico</label>
+                            <input id="correo" name="correo" type="email" placeholder="tu@correo.com" autocomplete="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="telefono">Teléfono</label>
+                            <input id="telefono" name="telefono" type="tel" placeholder="+34 600 123 456" autocomplete="tel">
+                        </div>
+                        <div class="form-field">
+                            <label for="asunto">Asunto</label>
+                            <input id="asunto" name="asunto" type="text" placeholder="¿En qué podemos ayudarte?" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos brevemente sobre tu proyecto" required></textarea>
+                    </div>
+                    <button class="button button-dark" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Estudio Norte</p>
+        <p>Diseño con propósito, desde cualquier lugar.</p>
+    </footer>
+</body>
+</html>
